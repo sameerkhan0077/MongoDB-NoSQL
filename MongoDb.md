@@ -73,3 +73,19 @@
  "admissiondate":("2023-04-01"),
  "dob":("1999-04-27")}]);
  ```
+# Mongodb Query
+
+ ### 1. Vo sare students ki list btao jinka email ni hai 
+### 2. Vo sare students ki list btao jinka mobile number same hai 
+### 3. Sare students ka only email and mobile return krvao
+### 4. students record ki name se sorting krni hai 
+### 5. vo sare students ki list return kro jinka admission last 3 months me hua hai 
+### 6. vo sare students ka only naam btao jinka admission current month me hua hai 
+### 7. vo sare students ka naam btao jinki dob year same hai 
+### 8. vo sare students ka naam btao jinka address jaipur, nagaur ya karauli ho 
+### 9. vo sare students ka naam btao jo Sikar, Jhunjhun se ni hai 
+### 10. vo sare students ka naam btao jinka Address Sikar hai and fathername Rahim hai 
+### 11. vo sare students ka naam btao jinka fathername Khalil ho or email id rahim@gmail.com ho 
+### 12. question 11 ko nor se kro 
+### 13. Vo sare students ka naam btao jinka father name Ahmed ni hai 
+### 14. Vo sare students ka naam btao jinka mobile 945345435 ni hai
