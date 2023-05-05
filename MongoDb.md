@@ -4,6 +4,10 @@
  ```
  use wecodeacademy
  ```
+ ###CreateCollection 
+ ```mongodb
+ db.createCollection("students);
+ ```
 ### insert-data
 ```
  db.student.insertMany([{
