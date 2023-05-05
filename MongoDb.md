@@ -4,8 +4,8 @@
  ```
  use wecodeacademy
  ```
- ###CreateCollection 
- ```mongodb
+ ### CreateCollection 
+ ```mongo
  db.createCollection("students);
  ```
 ### insert-data
