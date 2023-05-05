@@ -9,7 +9,7 @@
  db.createCollection("students);
  ```
 ### insert-data
-```
+```sql
  db.student.insertMany([{
  "name":"khalil",
  "fatherName":"k.khan",
@@ -19,7 +19,7 @@
  "admissiondate":("2023-01-01"),
  "dob":("2001-10-15")},
  ```
-```
+```sql
  {"name":"aarif",
  "fatherName":"a.khan",
  "address":"merta",
@@ -28,7 +28,7 @@
  "admissiondate":("2023-04-01"),
  "dob":("2000-03-25")},
 ```
-```
+```sql
  {"name":"shera",
  "fatherName":"s.khan",
  "address":"merta",
@@ -37,7 +37,7 @@
  "admissiondate":("2023-02-01"),
  "dob":("2002-05-12")},
  ```
- ```
+ ```sql
  {"name":"irfan",
  "fatherName":"i.khan",
  "address":"merta",
@@ -46,7 +46,7 @@
  "admissiondate":("2023-01-01"),
  "dob":("2003-08-10")},
 ```
-```
+```sql
  {"name":"sameer",
  "fatherName":"b.khan",
  "address":"nagour",
@@ -55,7 +55,7 @@
  "admissiondate":("2023-01-01"),
  "dob":("2001-09-15")},
  ```
- ```
+ ```sql
  {"name":"rafik",
  "fatherName":"r.khan",
  "address":"merta",
@@ -64,7 +64,7 @@
  "admissiondate":("2023-03-01"),
  "dob":("2003-05-01")},
  ```
- ```
+ ```sql
  {"name":"mazeed",
  "fatherName":"m.khan",
  "address":"jaipur",
