@@ -1,11 +1,11 @@
  # MongoDb
  
  ### create database 
- ```
+ ```sql
  use wecodeacademy
  ```
  ### CreateCollection 
- ```mongo
+ ```sql
  db.createCollection("students);
  ```
 ### insert-data
@@ -18,7 +18,8 @@
  "emailid":"khalil@gmail.com",
  "admissiondate":("2023-01-01"),
  "dob":("2001-10-15")},
-
+ ```
+```
  {"name":"aarif",
  "fatherName":"a.khan",
  "address":"merta",
@@ -26,7 +27,8 @@
  "emailid":"aarif@gmail.com",
  "admissiondate":("2023-04-01"),
  "dob":("2000-03-25")},
-
+```
+```
  {"name":"shera",
  "fatherName":"s.khan",
  "address":"merta",
@@ -34,7 +36,8 @@
  "emailid":"shera@gmail.com",
  "admissiondate":("2023-02-01"),
  "dob":("2002-05-12")},
- 
+ ```
+ ```
  {"name":"irfan",
  "fatherName":"i.khan",
  "address":"merta",
@@ -42,7 +45,8 @@
  "emailid":"irfan@gmail.com",
  "admissiondate":("2023-01-01"),
  "dob":("2003-08-10")},
-
+```
+```
  {"name":"sameer",
  "fatherName":"b.khan",
  "address":"nagour",
@@ -50,7 +54,8 @@
  "emailid":"samk@gmail.com",
  "admissiondate":("2023-01-01"),
  "dob":("2001-09-15")},
- 
+ ```
+ ```
  {"name":"rafik",
  "fatherName":"r.khan",
  "address":"merta",
@@ -58,7 +63,8 @@
  "emailid":"rafik@gmail.com",
  "admissiondate":("2023-03-01"),
  "dob":("2003-05-01")},
- 
+ ```
+ ```
  {"name":"mazeed",
  "fatherName":"m.khan",
  "address":"jaipur",
