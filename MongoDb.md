@@ -8,6 +8,10 @@
  ```sql
  db.createCollection("students);
  ```
+ ### CreateCollection
+ ```sql
+ db.createCollections('Batch');
+ ```
 ### insert-data
 ```sql
  db.student.insertMany([{
