@@ -124,7 +124,8 @@ db.student.find({},{emailid:1,mobile:1});
 ```sql
 ```
 ### 6. vo sare students ka only naam btao jinka admission current month me hua hai 
-``sql
+```sql
+
 ```
 ### 7. vo sare students ka naam btao jinki dob year same hai  
 ```sql
@@ -150,9 +151,9 @@ db.student.find({$or: [{ emailid: "rahim@gmail.com " },{ fatherName: "m.Khalil" 
 ### 12. question 11 ko nor se kro 
 ### 13. Vo sare students ka naam btao jinka father name Ahmed ni hai 
 ```sql
-db.student.find({fatherName : {$nin : ["b.khan"]}}, {name : 1});
+db.student.find({fatherName : {$nin : ["Ahmed"]}}, {name : 1});
 ```
 ### 14. Vo sare students ka naam btao jinka mobile 945345435 ni hai
 ```sql
- db.student.find({"mobile" : {$nin : [123456789]}}, {"name" : 1})
+ db.student.find({"mobile" : {$nin : [945345435]}}, {"name" : 1})
  ```
