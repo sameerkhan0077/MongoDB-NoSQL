@@ -8,11 +8,7 @@
  ```sql
  db.createCollection("students);
  ```
- ### CreateCollection
- ```sql
- db.createCollections('Batch');
- ```
-### insert-data
+### insert-data students
 ```sql
  db.student.insertMany([{
  "name":"khalil",
@@ -77,6 +73,35 @@
  "admissiondate":("2023-04-01"),
  "dob":("1999-04-27")}]);
  ```
+  ### CreateCollection
+ ```sql
+ db.createCollections('Batch');
+ ```
+ ### insert-data batch 
+ ```sql
+ db.batch.insert({
+ "coursename" : "websiteDesign",
+ "startdate" :"2023-01-15",
+ "enddate" : "2023-06-20"});
+ ```
+  ```sql
+db.batch.insert({
+  "coursename" : "Nodejs",
+  "startdate" :"2023-02-15",
+  "enddate" : "2023-06-20"});
+ ```
+ ```sql
+  db.batch.insert({
+  "coursename" : "mysql",
+  "startdate" :"2023-03-15",
+  "enddate" : "2023-04-20"});
+```
+```sql
+db.batch.insert({
+ "coursename" : "javascript",
+ "startdate" :"2023-01-10",
+"enddate" : "2023-05-30"});
+```
 # Mongodb Query
 
  ### 1. Vo sare students ki list btao jinka email ni hai 
