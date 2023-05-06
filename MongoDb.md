@@ -121,27 +121,31 @@ db.student.find({},{emailid:1,mobile:1});
  db.student.find({}).sort({name : 1});
  ```
 ### 5. vo sare students ki list return kro jinka admission last 3 months me hua hai 
+```sql
+```
 ### 6. vo sare students ka only naam btao jinka admission current month me hua hai 
+``sql
+```
 ### 7. vo sare students ka naam btao jinki dob year same hai  
 ```sql
 wecodeacademy> db.student.find( { "dob": { $eq: "2001-09-15" } } );
 ```
 ### 8. vo sare students ka naam btao jinka address jaipur, nagaur ya karauli ho ;
 ```sql
-db.student.find({ address: { $in: [ "jaipur", "merta" ] } },{ name: 1, _id: 0 });
+db.student.find({ address: { $in: [ "jaipur", "nagaur","karauli" ] } },{ name: 1 });
 ```
 ### 9. vo sare students ka naam btao jo Sikar, Jhunjhun se ni hai 
 ```sql
-db.student.find({ address: { $nin: [ "jaipur", "sikar" ] } },{ name: 1, _id: 0 });
+db.student.find({ address: { $nin: [ "Jhunjhun", "sikar" ] } },{ name: 1});
 ```
 
 ### 10. vo sare students ka naam btao jinka Address Sikar hai and fathername Rahim hai 
 ```sql
-db.student.find({$and: [{ address: "jaipur" },{ fatherName: "m.khan" }]}, { name: 1});
+db.student.find({$and: [{ address: "Sikar" },{ fatherName: "fathername.khan" }]}, { name: 1});
 ```
 ### 11. vo sare students ka naam btao jinka fathername Khalil ho or email id rahim@gmail.com ho 
 ```sql
-db.student.find({$or: [{ emailid: "mazeed@gmail.com" },{ fatherName: "m.khan" }]}, { name: 1});
+db.student.find({$or: [{ emailid: "rahim@gmail.com " },{ fatherName: "m.Khalil" }]}, { name: 1});
 ```
 ### 12. question 11 ko nor se kro 
 ### 13. Vo sare students ka naam btao jinka father name Ahmed ni hai 
