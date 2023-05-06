@@ -142,7 +142,7 @@ db.student.find({ address: { $nin: [ "Jhunjhun", "sikar" ] } },{ name: 1});
 
 ### 10. vo sare students ka naam btao jinka Address Sikar hai and fathername Rahim hai 
 ```sql
-db.student.find({$and: [{ address: "Sikar" },{ fatherName: "fathername.khan" }]}, { name: 1});
+db.student.find({$and: [{ address: "Sikar" },{ fatherName: "Rahim" }]}, { name: 1});
 ```
 ### 11. vo sare students ka naam btao jinka fathername Khalil ho or email id rahim@gmail.com ho 
 ```sql
